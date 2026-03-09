@@ -8,7 +8,8 @@ gsap.registerPlugin(ScrollTrigger);
 const LINEUP_EVENTS = [
   {
     id: "ev-01", type: "image",
-    media: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&q=80",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg/200px-Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg/700px-Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg",
     caption: "Tributo a LINKIN PARK — una noche de nu-metal y rock alternativo que no te puedes perder. 🎸",
     date: "Mar 4", day: "Martes", time: "09:45 PM",
     band: "LINKIN PARK", genre: "Nu Metal / Alt Rock",
@@ -17,7 +18,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-02", type: "image",
-    media: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&q=80",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Concierto_Gustavo_Cerati_%284120573409%29.jpg/200px-Concierto_Gustavo_Cerati_%284120573409%29.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Concierto_Gustavo_Cerati_%284120573409%29.jpg/700px-Concierto_Gustavo_Cerati_%284120573409%29.jpg",
     caption: "SODA STEREO vive otra vez en The Irish Pub RD. Los clásicos del rock en español.",
     date: "Mar 5", day: "Miércoles", time: "09:45 PM",
     band: "SODA STEREO", genre: "Rock en Español",
@@ -26,7 +28,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-03", type: "image",
-    media: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=200&q=80",
+    media: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=700&q=80",
     caption: "TOQUE PROFUNDO en el escenario del Irish Pub — groove, funk y rock fusión 🔥",
     date: "Mar 6", day: "Jueves", time: "09:45 PM",
     band: "TOQUE PROFUNDO", genre: "Rock / Funk",
@@ -35,7 +38,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-04", type: "image",
-    media: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=600&q=80",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Heroes_del_Silencio_Sevilla_Oct_07_2.jpg/200px-Heroes_del_Silencio_Sevilla_Oct_07_2.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Heroes_del_Silencio_Sevilla_Oct_07_2.jpg/700px-Heroes_del_Silencio_Sevilla_Oct_07_2.jpg",
     caption: "Tributo a HÉROES DEL SILENCIO — Bunbury vivirá en cada nota esta noche.",
     date: "Mar 7", day: "Viernes", time: "09:45 PM",
     band: "HÉROES DEL SILENCIO", genre: "Rock Alternativo",
@@ -44,7 +48,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-05", type: "image",
-    media: "https://images.unsplash.com/photo-1468164016595-6108e4c60753?w=600&q=80",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg/200px-Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg/700px-Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg",
     caption: "Tributo a GUNS N' ROSES — Welcome to the Jungle en The Irish Pub! 🎸🤘",
     date: "Mar 11", day: "Martes", time: "09:45 PM",
     band: "GUNS N' ROSES", genre: "Hard Rock / Heavy Metal",
@@ -53,7 +58,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-06", type: "image",
-    media: "https://images.unsplash.com/photo-1415886017018-c0d0f80de88c?w=600&q=80",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Brandon_Boyd_incubus_nova_rock_07.JPG/200px-Brandon_Boyd_incubus_nova_rock_07.JPG",
+    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Brandon_Boyd_incubus_nova_rock_07.JPG/700px-Brandon_Boyd_incubus_nova_rock_07.JPG",
     caption: "Tributo a INCUBUS — Make Yourself en vivo esta noche en Santo Domingo.",
     date: "Mar 12", day: "Miércoles", time: "09:45 PM",
     band: "INCUBUS", genre: "Alternative / Funk Rock",
@@ -62,7 +68,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-07", type: "image",
-    media: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=200&q=80",
+    media: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=700&q=80",
     caption: "EDUARDO PUCHAU en vivo — el talento local que llena el Irish Pub.",
     date: "Mar 18", day: "Martes", time: "09:45 PM",
     band: "EDUARDO PUCHAU", genre: "Artista Local",
@@ -71,7 +78,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-08", type: "image",
-    media: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=600&q=80",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg/200px-Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg/700px-Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg",
     caption: "Tributo a PLACEBO & INTERPOL — dos íconos del indie rock en una misma noche.",
     date: "Mar 19", day: "Miércoles", time: "09:45 PM",
     band: "PLACEBO & INTERPOL", genre: "Indie / Post-Punk",
@@ -80,7 +88,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-09", type: "image",
-    media: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&q=80",
+    thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Morat_en_concierto.jpg/200px-Morat_en_concierto.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Morat_en_concierto.jpg/700px-Morat_en_concierto.jpg",
     caption: "MORAT en tributo — las canciones que todos conocemos de memoria.",
     date: "Mar 25", day: "Martes", time: "09:45 PM",
     band: "MORAT", genre: "Pop / Indie",
@@ -89,7 +98,8 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-st1", type: "image",
-    media: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&q=80",
+    thumbnail: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=200&q=80",
+    media: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=700&q=80",
     caption: "🍀 ST. PATRICK'S WEEK — Green beer, música en vivo y la mejor fiesta irlandesa de Santo Domingo.",
     date: "Mar 14–17", day: "St. Patrick's", time: "09:45 PM",
     band: "ST. PATRICK'S WEEK", genre: "Evento Especial",
@@ -286,7 +296,7 @@ export default function Eventos({ posts = [] }) {
               {/* Thumbnail */}
               <div className="flex-shrink-0 w-14 h-14 rounded-[0.75rem] overflow-hidden border border-[#444950]">
                 <img
-                  src={post.media}
+                  src={post.thumbnail || post.media}
                   alt={post.band}
                   className="w-full h-full object-cover"
                   loading="lazy"
