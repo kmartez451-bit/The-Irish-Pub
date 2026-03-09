@@ -9,7 +9,7 @@ const LINEUP_EVENTS = [
   {
     id: "ev-01", type: "image",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg/200px-Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg",
-    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg/700px-Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Chester_Bennington_from_Linkin_Park_%40_Sonisphere.jpg",
     caption: "Tributo a LINKIN PARK — una noche de nu-metal y rock alternativo que no te puedes perder. 🎸",
     date: "Mar 4", day: "Martes", time: "09:45 PM",
     band: "LINKIN PARK", genre: "Nu Metal / Alt Rock",
@@ -19,7 +19,7 @@ const LINEUP_EVENTS = [
   {
     id: "ev-02", type: "image",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Concierto_Gustavo_Cerati_%284120573409%29.jpg/200px-Concierto_Gustavo_Cerati_%284120573409%29.jpg",
-    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Concierto_Gustavo_Cerati_%284120573409%29.jpg/700px-Concierto_Gustavo_Cerati_%284120573409%29.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Concierto_Gustavo_Cerati_%284120573409%29.jpg",
     caption: "SODA STEREO vive otra vez en The Irish Pub RD. Los clásicos del rock en español.",
     date: "Mar 5", day: "Miércoles", time: "09:45 PM",
     band: "SODA STEREO", genre: "Rock en Español",
@@ -39,7 +39,7 @@ const LINEUP_EVENTS = [
   {
     id: "ev-04", type: "image",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Heroes_del_Silencio_Sevilla_Oct_07_2.jpg/200px-Heroes_del_Silencio_Sevilla_Oct_07_2.jpg",
-    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Heroes_del_Silencio_Sevilla_Oct_07_2.jpg/700px-Heroes_del_Silencio_Sevilla_Oct_07_2.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Heroes_del_Silencio_Sevilla_Oct_07_2.jpg",
     caption: "Tributo a HÉROES DEL SILENCIO — Bunbury vivirá en cada nota esta noche.",
     date: "Mar 7", day: "Viernes", time: "09:45 PM",
     band: "HÉROES DEL SILENCIO", genre: "Rock Alternativo",
@@ -49,7 +49,7 @@ const LINEUP_EVENTS = [
   {
     id: "ev-05", type: "image",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg/200px-Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg",
-    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg/700px-Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Guns_N_Roses_in_concert_in_London_on_1_July_2022_Axl_Rose.jpg",
     caption: "Tributo a GUNS N' ROSES — Welcome to the Jungle en The Irish Pub! 🎸🤘",
     date: "Mar 11", day: "Martes", time: "09:45 PM",
     band: "GUNS N' ROSES", genre: "Hard Rock / Heavy Metal",
@@ -59,7 +59,7 @@ const LINEUP_EVENTS = [
   {
     id: "ev-06", type: "image",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Brandon_Boyd_incubus_nova_rock_07.JPG/200px-Brandon_Boyd_incubus_nova_rock_07.JPG",
-    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Brandon_Boyd_incubus_nova_rock_07.JPG/700px-Brandon_Boyd_incubus_nova_rock_07.JPG",
+    media: "https://upload.wikimedia.org/wikipedia/commons/8/80/Brandon_Boyd_incubus_nova_rock_07.JPG",
     caption: "Tributo a INCUBUS — Make Yourself en vivo esta noche en Santo Domingo.",
     date: "Mar 12", day: "Miércoles", time: "09:45 PM",
     band: "INCUBUS", genre: "Alternative / Funk Rock",
@@ -79,7 +79,7 @@ const LINEUP_EVENTS = [
   {
     id: "ev-08", type: "image",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg/200px-Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg",
-    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg/700px-Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Brian_Molko_-_Placebo_-_Frequency_Festival_-_2017-08-16-21-34-00.jpg",
     caption: "Tributo a PLACEBO & INTERPOL — dos íconos del indie rock en una misma noche.",
     date: "Mar 19", day: "Miércoles", time: "09:45 PM",
     band: "PLACEBO & INTERPOL", genre: "Indie / Post-Punk",
@@ -89,7 +89,7 @@ const LINEUP_EVENTS = [
   {
     id: "ev-09", type: "image",
     thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Morat_en_concierto.jpg/200px-Morat_en_concierto.jpg",
-    media: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Morat_en_concierto.jpg/700px-Morat_en_concierto.jpg",
+    media: "https://upload.wikimedia.org/wikipedia/commons/0/05/Morat_en_concierto.jpg",
     caption: "MORAT en tributo — las canciones que todos conocemos de memoria.",
     date: "Mar 25", day: "Martes", time: "09:45 PM",
     band: "MORAT", genre: "Pop / Indie",
