@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 const LINEUP_EVENTS = [
   {
     id: "ev-01", type: "image",
-    media: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&q=80",
     caption: "Tributo a LINKIN PARK — una noche de nu-metal y rock alternativo que no te puedes perder. 🎸",
     date: "Mar 4", day: "Martes", time: "09:45 PM",
     band: "LINKIN PARK", genre: "Nu Metal / Alt Rock",
@@ -17,7 +17,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-02", type: "image",
-    media: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&q=80",
     caption: "SODA STEREO vive otra vez en The Irish Pub RD. Los clásicos del rock en español.",
     date: "Mar 5", day: "Miércoles", time: "09:45 PM",
     band: "SODA STEREO", genre: "Rock en Español",
@@ -26,7 +26,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-03", type: "image",
-    media: "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=600&q=80",
     caption: "TOQUE PROFUNDO en el escenario del Irish Pub — groove, funk y rock fusión 🔥",
     date: "Mar 6", day: "Jueves", time: "09:45 PM",
     band: "TOQUE PROFUNDO", genre: "Rock / Funk",
@@ -35,7 +35,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-04", type: "image",
-    media: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=600&q=80",
     caption: "Tributo a HÉROES DEL SILENCIO — Bunbury vivirá en cada nota esta noche.",
     date: "Mar 7", day: "Viernes", time: "09:45 PM",
     band: "HÉROES DEL SILENCIO", genre: "Rock Alternativo",
@@ -44,7 +44,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-05", type: "image",
-    media: "https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1468164016595-6108e4c60753?w=600&q=80",
     caption: "Tributo a GUNS N' ROSES — Welcome to the Jungle en The Irish Pub! 🎸🤘",
     date: "Mar 11", day: "Martes", time: "09:45 PM",
     band: "GUNS N' ROSES", genre: "Hard Rock / Heavy Metal",
@@ -53,7 +53,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-06", type: "image",
-    media: "https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1415886017018-c0d0f80de88c?w=600&q=80",
     caption: "Tributo a INCUBUS — Make Yourself en vivo esta noche en Santo Domingo.",
     date: "Mar 12", day: "Miércoles", time: "09:45 PM",
     band: "INCUBUS", genre: "Alternative / Funk Rock",
@@ -62,7 +62,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-07", type: "image",
-    media: "https://images.unsplash.com/photo-1555658636-6e4a36218be7?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&q=80",
     caption: "EDUARDO PUCHAU en vivo — el talento local que llena el Irish Pub.",
     date: "Mar 18", day: "Martes", time: "09:45 PM",
     band: "EDUARDO PUCHAU", genre: "Artista Local",
@@ -71,7 +71,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-08", type: "image",
-    media: "https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=600&q=80",
     caption: "Tributo a PLACEBO & INTERPOL — dos íconos del indie rock en una misma noche.",
     date: "Mar 19", day: "Miércoles", time: "09:45 PM",
     band: "PLACEBO & INTERPOL", genre: "Indie / Post-Punk",
@@ -80,7 +80,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-09", type: "image",
-    media: "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600&q=80",
     caption: "MORAT en tributo — las canciones que todos conocemos de memoria.",
     date: "Mar 25", day: "Martes", time: "09:45 PM",
     band: "MORAT", genre: "Pop / Indie",
@@ -89,7 +89,7 @@ const LINEUP_EVENTS = [
   },
   {
     id: "ev-st1", type: "image",
-    media: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=600&q=80",
     caption: "🍀 ST. PATRICK'S WEEK — Green beer, música en vivo y la mejor fiesta irlandesa de Santo Domingo.",
     date: "Mar 14–17", day: "St. Patrick's", time: "09:45 PM",
     band: "ST. PATRICK'S WEEK", genre: "Evento Especial",
@@ -98,20 +98,38 @@ const LINEUP_EVENTS = [
   },
   {
     id: "bv-01", type: "image",
-    media: "https://images.unsplash.com/photo-1555658636-6e4a36218be7?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1618183479302-1e0aa382c36b?w=600&q=80",
     caption: "Green beer — la tradición del Irish Pub cada St. Patrick's 🍺🍀",
     date: "Mar 17", day: "Lunes", time: "",
-    band: "", genre: "",
+    band: "Green Beer", genre: "St. Patrick's Special",
     hashtags: ["#greenbeer", "#guinness", "#stpatricks"],
     category: "bebidas",
   },
   {
     id: "bv-02", type: "image",
-    media: "https://images.unsplash.com/photo-1543007630-9710e4a00a20?w=600&q=80",
+    media: "https://images.unsplash.com/photo-1436076863939-06870fe779c2?w=600&q=80",
     caption: "Craft beers on tap — siempre frescas 🍺",
     date: "", day: "", time: "",
-    band: "", genre: "",
+    band: "Craft Beer", genre: "On Tap",
     hashtags: ["#craftbeer", "#beer", "#bar"],
+    category: "bebidas",
+  },
+  {
+    id: "bv-03", type: "image",
+    media: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=600&q=80",
+    caption: "Cocktails de autor — creatividad en cada vaso 🍹",
+    date: "", day: "", time: "",
+    band: "Signature Cocktails", genre: "Bar Menu",
+    hashtags: ["#cocktails", "#bar", "#drinks"],
+    category: "bebidas",
+  },
+  {
+    id: "bv-04", type: "image",
+    media: "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=600&q=80",
+    caption: "Whiskey & Spirits — la mejor selección de la ciudad 🥃",
+    date: "", day: "", time: "",
+    band: "Whiskey Bar", genre: "Premium Spirits",
+    hashtags: ["#whiskey", "#jameson", "#jackdaniels"],
     category: "bebidas",
   },
 ];
@@ -265,8 +283,19 @@ export default function Eventos({ posts = [] }) {
                 e.currentTarget.style.background  = post.featured ? "rgba(49,167,59,0.08)" : "#303338";
               }}
             >
+              {/* Thumbnail */}
+              <div className="flex-shrink-0 w-14 h-14 rounded-[0.75rem] overflow-hidden border border-[#444950]">
+                <img
+                  src={post.media}
+                  alt={post.band}
+                  className="w-full h-full object-cover"
+                  loading="lazy"
+                  onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=120&q=60"; }}
+                />
+              </div>
+
               {/* Date column */}
-              <div className="flex-shrink-0 w-16 text-center">
+              <div className="flex-shrink-0 w-14 text-center">
                 <p className="font-mono uppercase tracking-widest leading-none mb-1"
                   style={{ fontSize: "0.65rem", color: "#606770" }}>{post.day}</p>
                 <p className="font-sans font-black text-[#C9891A] leading-none" style={{ fontSize: "1.35rem" }}>
